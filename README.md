@@ -1,6 +1,6 @@
 # Deportino
 
-user:par
+user:pat
 contra:orden227
 
 para cambiar el idioma y la zona horaria, debes poner en "settings" esto:
