@@ -10,3 +10,24 @@ LANGUAGE_CODE = 'es-cl'
 TIME_ZONE = 'America/Santiago'
 
 .\venv\Scripts\Activate <-- wea para activar el entorno virtual
+
+[
+    {
+        "id": 1,
+        "name": "Camisas paises",
+        "slug": "camisas-paises"
+    },
+    {
+        "id": 4,
+        "name": "pelota futbol",
+        "slug": "pelota-futbol"
+    },
+    {
+        "id": 2,
+        "name": "zapatillas deportivas",
+        "slug": "zapatillas-deportivas"
+    }
+]
+
+categoria 1 = camisas paises
+categoria 2 = zapatillas deportivas
