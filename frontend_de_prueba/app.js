@@ -2,7 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Document loaded');
     fetch('http://localhost:8000/api/products/')
         .then(response => {
-            console.log('API response received');
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
             return response.json();
         })
         .then(data => {
