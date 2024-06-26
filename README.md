@@ -31,3 +31,8 @@ TIME_ZONE = 'America/Santiago'
 
 categoria 1 = camisas paises
 categoria 2 = zapatillas deportivas
+
+pip install -r requirements.txt 
+
+pon eso ANTES de poner cd deportino en 
+la consola de comandos
