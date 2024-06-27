@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import AbstractUser
 
 # Create your models here.
 
@@ -32,7 +33,7 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
-    
+
 class Cliente(models.Model):
     nombre = models.CharField(max_length=200)
     apellidos = models.CharField(max_length=200)
@@ -78,3 +79,8 @@ class Reseña(models.Model):
 
     def __str__(self):
         return f'Reseña de {self.cliente} para {self.producto}'
+
+class CustomUser(AbstractUser):
+    pass
+
+    # Opcional: puedes agregar campos adicionales
