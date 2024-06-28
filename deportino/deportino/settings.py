@@ -62,7 +62,7 @@ ROOT_URLCONF = 'deportino.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, '..', '..', 'frontend', 'pagina')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
