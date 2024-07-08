@@ -1,5 +1,8 @@
 # Deportino
 
+para la pagina de admin de django 
+estos son los datos
+
 user:pat
 contra:orden227
 
