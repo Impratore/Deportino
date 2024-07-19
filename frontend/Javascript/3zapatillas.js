@@ -44,13 +44,13 @@ function ready(){
 //Eliminamos todos los elementos del carrito y lo ocultamos
 function pagarClicked(){
     alert("Gracias por la compra");
-    //Elimino todos los elmentos del carrito
     var carritoItems = document.getElementsByClassName('carrito-items')[0];
     while (carritoItems.hasChildNodes()){
-        carritoItems.removeChild(carritoItems.firstChild)
+        carritoItems.removeChild(carritoItems.firstChild);
     }
     actualizarTotalCarrito();
     ocultarCarrito();
+    window.location.href = "/frontend/pagina/met-pag.html"; // Redirigir a met-pag.html
 }
 //Funciòn que controla el boton clickeado de agregar al carrito
 function agregarAlCarritoClicked(event){

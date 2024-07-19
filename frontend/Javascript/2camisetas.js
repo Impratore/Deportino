@@ -66,6 +66,7 @@ function pagarClicked(){
     }
     actualizarTotalCarrito();
     ocultarCarrito();
+    window.location.href = "/frontend/pagina/met-pag.html"; // Redirigir a met-pag.html
 }
 
 function addToCart(productId, name, price, image){
